@@ -8,6 +8,8 @@ body {
   margin: 0px;
 }
 
+
+
 header {width: 100%;
   background-color: #ffffff;
   color: #ccc;
@@ -20,15 +22,17 @@ h1 {float: left;
   background-color: teal;
   color: white;
   height: 50px;
-  margin-left: 320px;
+  margin-left: 240px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  text-indent: 20px;
+  padding-top:6px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 nav {float: right;
 background-color: #ffffff;
 color: darkgray;
-margin-right: 320px;
+margin-right: 240px;
 margin-top: 33px;
 font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -36,7 +40,7 @@ font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 #contentbox {
 margin: auto;
 width: 50%;
-width: 800px;
+width: 960px;
 height: 500px;
 background-color:#ffffff;
 color:#777777;
@@ -77,6 +81,7 @@ footer {
   border-top: 10px solid teal;
   text-align: center;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  padding-top: 10px;
 }
 
 
@@ -113,12 +118,29 @@ input[type=text]{
     position: relative;
     margin: auto;
     width: 50%;
-    width: 800px;
+    width: 960px;
     height: 800px;
     background-color:#ffffff;
     color:#777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     }
+h3 {font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  .box{
+      position: relative;
+      display: inline-block; 
+  }
+
+  .box .text{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 60%;
+    text-align: center;
+    width: 87.5%;
+    color: #ffffff;
+    background: teal;}
 
   #hangman {
     float: left;
