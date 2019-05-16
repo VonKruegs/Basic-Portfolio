@@ -21,12 +21,14 @@ header {width: 100%;
 h1 {float: left;
   background-color: teal;
   color: white;
-  height: 50px;
+  height: 72px;
   margin-left: 240px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding-top:6px;
+  padding-top:16px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 nav {float: right;
